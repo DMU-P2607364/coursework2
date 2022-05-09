@@ -171,9 +171,9 @@ display: flex;
 
 .twitter { 
  
-  width: 48%;
+  width: 48%; /* Sets size of the element  */
   border: 3px solid black;
-  padding: 10px;
+  padding: 10px; 
 	text-align: left;
 	color: white;
 	background-color: black;
