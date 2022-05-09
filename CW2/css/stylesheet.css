@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+/* links woff font to the document and sets name with font family*/
 @font-face {
   font-family: "coolvetica";
   src: url("fonts/coolvetica_rg.woff") format('woff');
@@ -27,13 +27,13 @@ body {
 position: absolute;
 	
 padding-left: 12px;
-	
+	/* Sets space between the left and top of the screen away from the "Triple 0 Reviews" header. */
 padding-top: 9px;
 	
 font-family: "coolvetica";
 	
 color: white;
-
+/* Sets colour of text to white */
 	
 font-size: 3vw;
 border: 0;
@@ -41,7 +41,7 @@ text-decoration: none;
 	
 }
 
-/* ensures text top left turns green when hovered over */
+/* ensures text top left turns green when hovered over. Copied from w3schools */ 
 .title1 a:hover {
  color: lightgreen;
 	text-decoration: none;
@@ -93,7 +93,7 @@ text-decoration: none;
 
 
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+/* Will vertically align the menu in the flex container rather than horizontally. This only occurs when the screen or tab is smaller than 400px. Copied from w3 Schools */
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -108,7 +108,7 @@ text-decoration: none;
 
 
 
-/* changes background gradient colour of scrolling text to grey and white. font family sets the font to coolvetica.*/
+/* Changes background gradient colour of scrolling text to grey and white. Font family sets the font to coolvetica.*/
 
 marquee {
 	margin-top: 0%;
@@ -136,7 +136,7 @@ display: flex;
 
 
 
-/* adapts menu for mobile devices*/
+/* Adapts flex images for mobile devices. Copied from W3 Schools*/
 @media screen and (max-width: 400px) {
   .flex {
 	  
@@ -158,6 +158,7 @@ display: flex;
 	  display: inline-block;
   justify-content: center;
 	
+	 /* centers content in the middle of the page*/
 	  flex-direction: column;
 	  width: 400px;
 	  float: left;
@@ -194,7 +195,7 @@ font-size: 2vw;
 	text-align: right;
 	width: 100%;
 	font-family: "coolvetica";
-
+/* Sets font to coolvetica, linked from before. The width 100% means the footer takes up the whole width. */
 }
 
 h1 {font-size: 3vw; font-family: "coolvetica";float:left;}
