@@ -98,7 +98,7 @@ text-decoration: none;
 
 
 
-/* Will vertically align the menu in the flex container rather than horizontally. This only occurs when the screen or tab is smaller than 400px. Copied from w3 Schools */
+/* Will vertically align the menu in the flex container rather than horizontally. This only occurs when the screen or tab is smaller than 400px through the media query. Copied from w3 Schools */
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
