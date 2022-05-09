@@ -1,6 +1,11 @@
 @charset "utf-8";
 
-/* links woff font to the document and sets name with font family. Was converted with FontSquirrel.com and Obtained from DaFont*/
+/* links woff font to the document and sets name with font family. Was converted with FontSquirrel.com and obtained from DaFont. Url: https://www.dafont.com/coolvetica.font 
+*/
+
+
+
+
 @font-face {
   font-family: "coolvetica";
   src: url("fonts/coolvetica_rg.woff") format('woff');
@@ -41,7 +46,7 @@ text-decoration: none;
 	/* Ensures the link isn't purple or underlined.*/
 }
 
-/* ensures text top left turns green when hovered over. Copied from w3schools */ 
+/* ensures text top left turns green when hovered over. Copied from w3schools. Url: https://www.w3schools.com/cssref/sel_hover.asp */ 
 .title1 a:hover {
  color: lightgreen;
 	text-decoration: none;
@@ -64,7 +69,7 @@ text-decoration: none;
  color: lightgreen;
 }
 
-
+/* Container for the menu. */
 .navbar {
     
   width: 100%;
@@ -124,16 +129,17 @@ font-family: "coolvetica";
 	flex-direction: row;
 display: flex;
 	justify-content: center;
-	padding: 10px;
+	padding: 10px; /* Spaces images*/
 	margin: auto;
 	width: 0%;
 	border:1vw;
+	
 }
 
 
 
 
-/* Adapts flex images for mobile devices. Copied from W3 Schools*/
+/* Adapts flex images for mobile devices. Copied from W3 Schools. Url: https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
 @media screen and (max-width: 400px) {
   .flex {
 	  
@@ -141,7 +147,7 @@ display: flex;
 	  display: inline-block;
   justify-content: center;
 	
-	  flex-direction: column;
+	  flex-direction: column; 
 	  width: 400;
 	  float: left;
 	  
