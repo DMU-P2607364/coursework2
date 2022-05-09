@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* links woff font to the document and sets name with font family*/
+/* links woff font to the document and sets name with font family. Was converted with FontSquirrel.com and Obtained from DaFont*/
 @font-face {
   font-family: "coolvetica";
   src: url("fonts/coolvetica_rg.woff") format('woff');
@@ -38,7 +38,7 @@ color: white;
 font-size: 3vw;
 border: 0;
 text-decoration: none;
-	
+	/* Ensures the link isn't purple or underlined.*/
 }
 
 /* ensures text top left turns green when hovered over. Copied from w3schools */ 
@@ -118,7 +118,7 @@ font-size: 2vw;
 font-family: "coolvetica";
 }
 
-/* enables 2 images to be placed side by sides*/
+/* Flexbox container. Enables 2 images to be placed side by sides*/
 .flex { 
 	
 	flex-direction: row;
@@ -128,9 +128,6 @@ display: flex;
 	margin: auto;
 	width: 0%;
 	border:1vw;
-	box-shadow: 10px 10px;
-
-	
 }
 
 
@@ -242,7 +239,7 @@ video { position: absolute;
 	float: right;
 	alignment-baseline: top;
 	border: 10px;
-	
+	/*sets the location of the element*/
 }
 
 
