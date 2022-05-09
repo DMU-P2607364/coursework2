@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: "coolvetica";
+  src: url(coolvetica_rg.ttf);
+}
+
+/* Sets the font */
+
+
+body { 
+	
+	  margin: 0;
+  padding: 0;
+	min-height: 100vh;
+	
+	
+		
+
+}
+.title1 a{
+	
+	float: left;
+	
+position: absolute;
+	
+padding-left: 12px;
+	
+padding-top: 9px;
+	
+font-family: "coolvetica";
+	
+color: white;
+
+	
+font-size: 3vw;
+border: 0;
+text-decoration: none;
+	
+}
+
+/* ensures text top left turns green when hovered over */
+.title1 a:hover {
+ color: lightgreen;
+	text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .title1 {
+    float: none;
+	  position: absolute;
+	  
+	  
+  }
+}
+
+
+
+.title :hover {
+ color: lightgreen;
+}
+
+
+.navbar {
+    
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 3vw;
+	font-family: "coolvetica";
+	
+}
+
+
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+ color: lightgreen;
+}
+
+
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    display: inline-block;
+	  text-align: center;
+	     padding-top: 10vw;
+	  width: 400px;
+	  
+  }
+}
+
+
+
+
+/* changes background gradient colour of scrolling text to grey and white. font family sets the font to coolvetica.*/
+
+marquee {
+	margin-top: 0%;
+font-size: 2vw;
+	background-image: linear-gradient(grey, white, grey);
+	display:block;
+font-family: "coolvetica";
+}
+
+/* enables 2 images to be placed side by sides*/
+.flex { 
+	
+	flex-direction: row;
+display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: auto;
+	width: 0%;
+	border:1vw;
+	
+
+	
+}
+
+
+
+
+/* adapts menu for mobile devices*/
+@media screen and (max-width: 400px) {
+  .flex {
+	  
+    display: flex;
+	  display: inline-block;
+  justify-content: center;
+	
+	  flex-direction: column;
+	  width: 400;
+	  float: left;
+	  
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .flex {
+	  
+    display: flex;
+	  display: inline-block;
+  justify-content: center;
+	
+	  flex-direction: column;
+	  width: 400px;
+	  float: left;
+	  
+  }
+}
+
+.twitter { 
+ 
+  width: 48%;
+  border: 3px solid black;
+  padding: 10px;
+	text-align: left;
+	color: white;
+	background-color: black;
+	font-size: 3vw;
+	font-family: "coolvetica";
+}
+
+.txt1 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+footer{
+	position: relative;
+	
+font-size: 2vw;
+	background-image: linear-gradient(grey, white, grey);
+	display: block;
+	text-align: right;
+	width: 100%;
+	font-family: "coolvetica";
+
+}
+
+h1 {font-size: 3vw; font-family: "coolvetica";float:left;}
+
+h2 {
+	
+	font-size: 2vw; font-family: "coolvetica";
+
+}
+
+h3 {
+	
+	font-size: 1.5vw; font-family: "coolvetica";
+	 
+}
+
+h4 {
+	
+	
+	text-indent:0;
+	font-size: 1.5vw; font-family: "coolvetica";
+	
+}
+
+.kart {
+	
+	padding-left:15%;
+	padding-right: 15%;
+
+
+}
+
+video { position: absolute;
+	margin-bottom: 100px;
+  border: 10px;
+  right: 28.5%;
+	top: 600px;
+	
+}
+
+.cod {position: relative;
+	top: 10px;
+	right: 250px;
+	float: right;
+	alignment-baseline: top;
+	border: 10px;
+	
+}
+
+
+
+
+.img1 
+
+{position: absolute;
+
+	;
+	alignment-baseline: top;
+	border: 10px;
+	top: 150px;
+	right: 200px;
+}
+
+h5 {font-size: 3vw; font-family: "coolvetica"}
+
+h6 {  position: absolute;
+  right: 975px;
+  width: 300px;
+  top: 300px;
+  border: 3px solid black;
+	text-align: left;
+  padding: 10px;
+	font-size: 2vw; font-family: "coolvetica"}
+
+
+/* right, width and top adjusts the position of the element */
+
+h7 {  position: absolute;
+  right: 975px;
+  width: 300px;
+  top: 500px;
+  border: 3px solid black;
+	text-align: left;
+  padding: 10px;
+	font-size: 1vw; font-family: "coolvetica"}
+
+FIGURE, FIGCAPTION {
+
+display: block;
+font-style: italic;
+	font-family: coolvetica;
+font-variant: small-caps;
+	
+
+}
+
+.reviews { position: absolute;
+  right: 280px;
+  margin-right: 100px;
+  top: 390px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+dl { position: absolute;
+	  list-style-type: square;
+  left: 285px;font-size: 1.5vw; font-family: "coolvetica";}
+
+.flop {position: absolute;
+  right: 200px;
+  margin-right: 100px;
+  top: 270px;
+  padding: 10px;}
