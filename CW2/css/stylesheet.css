@@ -3,8 +3,9 @@
 
 @font-face {
   font-family: "coolvetica";
-  src: url(coolvetica_rg.ttf);
+  src: url("fonts/coolvetica_rg.woff") format('woff');
 }
+
 
 /* Sets the font */
 
