@@ -6,10 +6,13 @@
 	
 <meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
+	<! links the java source to the modal window >
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v0.5.3/dist/jBox.all.min.js"></script>
 <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v0.5.3/dist/jBox.all.min.css" rel="stylesheet">
+	
+	<! a seperate style sheet as their are multiple pages>
 	
 <link rel="stylesheet" href="css/stylesheet.css">
 <title>home</title>
@@ -31,9 +34,11 @@
 			</header>
 	
 	
-	
+	<! scrolling text across the screen>
+		
 	<marquee> Welcome to Triple 0 Reviews </marquee>
 	
+		<! creates a flexbox container to be able to easily align images horizontally or vertically>
 	<div class = "flex"> 
 		
 		
@@ -61,13 +66,12 @@
 		
 		
 		
-		
+		<! Modal window.>
 		
 		<div id="myModal">
 		<img src = "images/logo.png" alt = "logo" width="500vw" height="500vw" style="border:10px solid white">
 		
 		</div>
-			
 			 <script>
  
   new jBox('Modal', {
@@ -92,6 +96,7 @@
 			
 			
 		</center>
+		<! "<center>" centers the elements contained between the two commands.>
 			<center>
 		<audio controls>
   <source src="audio/callofduty.mp3" type="audio/mpeg">
