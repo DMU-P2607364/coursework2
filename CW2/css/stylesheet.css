@@ -12,7 +12,7 @@
 }
 
 
-/* Sets the font */
+/* Sets the font so "coolvetica" can be used when mentioned in the code */
 
 
 body { 
@@ -98,7 +98,7 @@ text-decoration: none;
 
 
 
-/* Will vertically align the menu in the flex container rather than horizontally. This only occurs when the screen or tab is smaller than 400px through the media query. Copied from w3 Schools */
+/* Will vertically align the menu in the flex container rather than horizontally. This only occurs when the screen or tab is smaller than 400px through the media query. */
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -139,7 +139,7 @@ display: flex;
 
 
 
-/* Adapts flex images for mobile devices. Copied from W3 Schools. Url: https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
+/* Adapts flex images for mobile devices.*/
 @media screen and (max-width: 400px) {
   .flex {
 	  
@@ -173,9 +173,9 @@ display: flex;
  
   width: 48%; /* Sets size of the element  */
   border: 3px solid black;
-  padding: 10px; 
+  padding: 10px; /* allows space between elements */
 	text-align: left;
-	color: white;
+	color: white; /* Sets text to white and background box to black */
 	background-color: black;
 	font-size: 3vw;
 	font-family: "coolvetica";
@@ -288,7 +288,7 @@ h7 {  position: absolute;
 FIGURE, FIGCAPTION {
 
 display: block;
-font-style: italic;
+font-style: italic; /* Sets font to italic */
 	font-family: coolvetica;
 font-variant: small-caps;
 	
@@ -304,7 +304,7 @@ font-variant: small-caps;
 }
 
 dl { position: absolute;
-	  list-style-type: square;
+	  list-style-type: square; /* sets the style of list */
   left: 285px;font-size: 1.5vw; font-family: "coolvetica";}
 
 .flop {position: absolute;
